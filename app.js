@@ -2,9 +2,6 @@ const express = require("express");
 const app = express();
 const path = require("path");
 
-app.listen(3000,()=>{
-    console.log("servidor ejecutandose en el puerto 3000")
-})
 
 
 app.get("/",(req,res)=>{
@@ -12,3 +9,7 @@ app.get("/",(req,res)=>{
 });
 
 app.use(express.static("public"));
+
+app.listen(4000,()=>{
+    console.log("servidor ejecutandose en el puerto 4000")
+})

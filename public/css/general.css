@@ -1,0 +1,24 @@
+:root{
+    --color-amarillo: #EAC926; 
+    --color-azul: #03264C;
+    --color-celeste: #1259c3;
+    --color-gris-oscuro: #666;
+    --color-gris-claro: #ebebeb;
+    --color-verde: #39b54a;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    color: #000;
+    cursor: pointer;
+}
+body{
+     font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
