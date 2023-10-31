@@ -29,18 +29,39 @@ header #verde{
 }
 
              /*main*/
-
+#titulos{height: 40px;
+text-align:center;}
 
 main{
     background-color:var(--color-gris-claro);
-    text-align: center;
+    text-align: center;  
 }
-
 main nav{
-    background-color: white;
-    margin: 15px;
+    
+    margin-left: 5%;
+    margin-right: 5%;}
+nav img {
+
+    width: 100%;
 }
 
+main i{color: var(--color-verde);
+    border:solid var(--color-verde) 1px;
+    border-radius: 50%;
+    padding: 10px;
+
+
+}
+
+.precio-y-porcentaje{background-color: white;
+    border-top: solid #ebebeb 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    padding-left: 15px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
              /*footer*/
 
 
@@ -52,6 +73,7 @@ footer i{
 
 footer{
     text-align: center;
+    background-color: white;
 }
 
            /*tamaño letras*/
